@@ -1,17 +1,24 @@
 # matplotlib tutorial 
----
 
 This is a short matplotlib tutorial, presented as a Jupyter notebook.
 
 ## To view the tutorial
 
 * Just click on ```tutorial.ipynb``` in this repository!
+* Alternatively, open up the html verion of the tutorial in your browser.
 
 ## To view this tutorial in interactive mode
 
 * First, download Jupyter. In mac/linux, just type: ```pip install jupyter --user```.
-* You may have to install pip first. 
 * With Jupyter installed, download ```tutorial.ipynb``` from this Github repository, navigate to where you have saved in and type ```jupyter notebook``` in the command line.
+
+## Included codes
+
+In the ```codes``` folder, you'll find some of the code from the tutorial.
+
+* ```stylemodule.py``` sets some parameters for you to make plots look better, as well as defining some custom colours that you can use in your plots. To inclue this in your plots, just put ```import stylemodule``` at the beginning of any of your scripts.
+* ```bifurcation.py``` is a script to plot bifurcation plots. It is just meant as a template. It's usage is examplained in the tutorial.
+* ```datareader.py``` will read files in a directory, open them up one by on, plot them and then save the resulting image files in another directory. Again, just meant as a template -- replace relevant filenames with whatever you need etc.
 
 ## A note on using Python on a mac
 
